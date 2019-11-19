@@ -29,7 +29,7 @@ class BSIT_widget extends WP_Widget {
 		if ( ! empty( $instance['title'] ) ) {
 			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
 		}
-		echo '<div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default">Nowet</div>';
+		echo '<div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default">jjj</div>';
 		echo $args['after_widget'];
 	}
 
